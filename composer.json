@@ -1,0 +1,37 @@
+{
+    "name": “juhi/phpcart",
+    "description": "Simple framework agnostic shopping cart",
+    "keywords": [
+        "Cart",
+        "php cart",
+        "Shopping cart",
+        "Laravel shopping cart",
+        "Laravel cart"
+    ],
+    "homepage": "https://github.com/juhisingh21/phpshoppingcart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": “Juhi Singh”,
+            "email": “jhsingh1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/http-foundation": "~2.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            “Juhi\\Phpcart\\" : "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            “Juhi\\Phpcart\\Test\\": "tests"
+        }
+    }
+}
